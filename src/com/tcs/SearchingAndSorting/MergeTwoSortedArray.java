@@ -20,7 +20,7 @@ public class MergeTwoSortedArray {
             arr[k++] = arr1[i++];
         }
 
-        // If there are remaining elements in arr2
+    
         while(j < size2) {
             arr[k++] = arr2[j++];
         }   
